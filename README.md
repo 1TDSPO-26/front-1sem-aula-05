@@ -5,3 +5,5 @@ Box Model
 Anotaçao dentro do read
 inherit
 Pega o pai da base
+
+Root declara sua variavel
