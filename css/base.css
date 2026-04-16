@@ -6,17 +6,18 @@
     font-weight: normal;
 }
 
-/*Declarando variáveis:
-    --nome(tendo a ver c oq será feito): valor;
-    --cor-de-fundo : #ff0066;
-    --size-font-padrao: 3rem
+/*
+    Declarando variáveis no CSS:
+    --cor-de-fundo : #ff0000;
+    --size-font-padrao: 3rem;
 
-    para utilizar:
-    h1 {
-        color: var(--cor-de-fundo);
-        font-size: var(--size-font-padrao);
+    Para utilizar a variável css:
+
+    h1{
+        color : var(--cor-de-fundo);
+        font-size : var(--size-font-padrao);
     }
-    
+
 */
 
 :root{
@@ -33,23 +34,28 @@
     --text-inv:#ffffff; /* Branco puro para contraste no verde do hover */
 }
 
-html {
-    font-size: 62.5%;
+
+html{
+    font-size: 62.5%;/* 10px = 1rem */
 }
 
-body {
+body{
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
 }
 
-ul {
+ul{
     list-style: none;
 }
 
-a {
+a{
     text-decoration: none;
     color: inherit;
+}
+
+main{
+    position: relative;
+    width: 100%;
 }
