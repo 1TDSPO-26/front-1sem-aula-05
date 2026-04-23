@@ -1,0 +1,8 @@
+.cabecalho__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1%;
+    
+
+}

@@ -37,13 +37,20 @@
 
 html{
     font-size: 62.5%;/* 10px = 1rem */
+
 }
+.cabecalho
+
 
 body{
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 ul{
