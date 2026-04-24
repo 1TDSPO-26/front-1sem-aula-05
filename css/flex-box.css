@@ -21,7 +21,7 @@ body{
     /* flex-direction: row; Alinhamento horizontal */
     /* flex-direction: column; Alinhamento vertical */
     /* flex-direction: row-reverse; */
-    flex-direction: column; /* Inverte a ordem dos itens */
+    /*flex-direction: column; /* Inverte a ordem dos itens */
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando necessário */
     justify-content: center; /* Alinhamento horizontal */
     align-content: center; /* Alinhamento vertical */
