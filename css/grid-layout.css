@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1a1b1c;
+    color: #e0e0e0;
+}
+
+.container{
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4,200px);
+    justify-content: start;
+    align-content: start;
+
+    
+    /* fr = unidade fracionaria */
+}
+
+.item{
+    background-color: #556b2f;
+    color: #fff;
+    padding: 4.5%;
+    border: 1px solid #fff;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+
+.container :nth-child(1){
+    align-self: center;
+    justify-self: center;
+    background-color: aqua;
+}
+
+.container :nth-child(5){
+    align-self: center;
+    justify-self: center;
+    background-color: aqua;
+}
+
+.container :nth-child(9){
+    align-self: center;
+    justify-self: center;
+    background-color: aqua;
+}
+
